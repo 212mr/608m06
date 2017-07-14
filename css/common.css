@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: helvetica, arial, sans-serif;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc8c8;
+}
+
+/*HEADER - - HEARDER - - */
+
+header{
+    /*height: 90px;*/
+    background-color: black;
+    height: 100px;
+    padding:0;
+}
+div.logo {
+    background-color: black;
+    padding:0;
+    vertical-align: middle;
+}
+
+div.intro{
+    width:100%;
+    padding:0;
+}
+
+
+div.logo{
+    width:30%;
+    float: left;
+    /*background-color: red;*/
+}
+.logo img#bos-big-logo  {
+    display: block;
+    width: 100%;
+    /*padding-right: 70px;*/
+    padding-left: 70px;
+    padding-top: 10px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+
+.logo img#round-b-logo {
+    display: none;
+    z-index: 5;
+    width:100%;
+}
+
+.logo, .intro, .menu {
+    padding: 10px;
+    background-color: black;
+}
+
+.menu {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    display: inline;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 100%;
+    vertical-align: middle;
+    z-index: +5;
+    position: absolute;
+    /*right: 20px;*/
+}
+
+.menu ul {
+    /*position: relative;*/
+    margin-top:60px;
+    float: right;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-padding {
+    padding-top: 40px;
+}
+
+
+
+div.center{
+    max-width: 2000px;
+    /*background-color: rgba(255, 186, 181, 0.7);*/
+}
+
+.content p {
+    /*margin-bottom: 20px;*/
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+/* -=Content -=Content -=Content -=Content -=Content -=Content -=*/
+/*background-color:rgba(255,186,181,0.7);*/
+
+.content {
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+#homecontent{
+    margin-top: 50%;
+    padding: 0;
+    width: 100%;
+}
+
+.brief {
+    width: 100%;
+    margin: 0;
+    /*background-color: rgba(255, 186, 181, 1);*/
+    display: inline;
+}
+
+/*CARD--CARD--CARD*/
+
+.card {
+    margin: 5% 4%;
+    position: relative;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card > :first-child {
+    margin-top: 0;
+}
+
+.card > :last-child {
+    margin-bottom: 0;
+}
+
+.card img {
+    width: 100%;
+    border: none;
+    vertical-align: middle;
+}
+
+.card img:hover{
+    border:none;
+    transition: .3s ease;
+}
+
+.overlay {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+    vertical-align: middle;
+}
+
+.overlay h3 {
+    line-height: 1.6em;
+}
+
+.card:hover .overlay {
+    height: 30%;
+}
+
+.text {
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    padding-bottom: 20px;
+    /*font-size: 1.2em;*/
+    position: absolute;
+    overflow: hidden;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*BUTTON = = = button = = = BUTTON = = = button = = =*/
+button.more {
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    width: 22%;
+    padding: 20px;
+}
+
+button.more:hover {
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    transition: .8s ease;
+}
+
+
+.footer-big{
+    font-family:helvetica, arial, sans-serif;
+
+
+}
+
+.footer-big ul{
+    list-style: none;
+    font-family:helvetica, arial, sans-serif;
+    font-size: 0.6em;
+    line-height: 1.8em;
+    color: #575757;
+}
+
+li.textbold{
+    font-weight: bolder;
+}
+
+.footer-small{
+    font-size: 0.6em;
+    color: #6a6a6a;
+}
+
+.footer-small img{
+    width: 26px;
+    margin: 40px;
+}
+
+
+/*=MEDIA = = Mix-Width 800px = =MEDIA = =*/
+
+@media (max-width: 700px) {
+
+    body {
+        font-size: 0.8em;
+    }
+
+    #homecontent{
+        margin-top: 150%;
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu{
+        float: none;
+    }
+    .menu li {
+        font-size: 0.8em;
+        line-height: 1.2em;
+        margin-right: 10px;
+    }
+
+    .logo img {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .overlay {
+        height: 30%;
+    }
+
+    header{
+        height:70px;
+    }
+
+    div.menu{
+        /*background-color: black;*/
+    }
+
+    div.logo{
+        width:16%;
+    }
+
+    .logo img#round-b-logo {
+        display:block;
+        width:100%;
+        margin-top: -20px;
+        margin-bottom: 6px;
+        vertical-align: middle;
+        /*transition: all 5s ease;*/
+    }
+
+    .logo img#bos-big-logo{
+        display: none;
+    }
+
+    .menu ul{
+        margin-top:0;
+        margin-bottom:0;
+
+    }
+
+    .footer-big{
+        display: none;
+    }
+
+}
+
+/*=-=-=-= GALLERY =-=-=-=- gallery -=-=-=-=-SLIDER =-=-=-=-=slider =-=-=-=-=-=SLIDER*/
+
+#rotator {
+    width: 100%;
+    height: 220px;
+    /*position: relative;*/
+    overflow: hidden;
+    position: relative;
+}
+
+#rotator .images {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#rotator a.arrow {
+    width: 18px;
+    height: 41px;
+    display: block;
+    z-index: 2;
+    text-indent: -50000em;
+    position: absolute;
+    top: 89px;
+    background: #FFF;
+}
+
+#rotator a.arrow.left {
+    left: 0;
+}
+
+#rotator a.arrow.right {
+    right: 0;
+}
+
+#rotator .images .imageHolder {
+    width: 100%;
+    float: left;
+    height: 220px;
+    position: relative;
+}
+
+/*#rotator .images .imageHolder span {*/
+    /*width: 290px;*/
+    /*margin: 10px;*/
+    /*color: #FFF;*/
+    /*font-size: 18px;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 4;*/
+/*}*/
+
+#rotator .images .imageHolder img {
+    width: 100%;
+    /*height: calc(width*40%);*/
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+/*_+_+_+ = HEART _=-=-=-=- CHECKED +=-=-=-=-=-*/
+
+
+.toggle {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 2em;
+    color: #414141;
+}
+.toggle input {
+    display:none;
+}
+.toggle-fav input:checked+label {
+    color:red;
+
+}
+

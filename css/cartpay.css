@@ -1,0 +1,161 @@
+
+div.cartall{
+    /*background-color: yellow;*/
+    vertical-align: middle;
+    width:86%;
+}
+
+div.cartone{
+    display: block;
+    vertical-align: middle;
+    margin: 40px 10px;
+    /*width: 86%;*/
+    /*background-color: red;*/
+
+}
+
+div.cartimg{
+    width:25%;
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cartimg img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+div.cartdiscp{
+    width:25%;
+    display: inline-block;
+}
+
+div.cartnumberadd{
+    width: 22%;
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    /*background-color: aqua;*/
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
+.cartnumberadd img{
+    width:26px;
+    display: inline;
+    vertical-align: middle;
+    margin:0 20px;
+}
+
+.cartnumberadd img:active{
+    border: solid 4px #ffc023;
+    border-radius: 50%;
+}
+
+div.cartprice{
+    width: 22%;
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cartprice p{
+    /*vertical-align: bottom;*/
+}
+
+
+
+p.add{
+    display: inline;
+    vertical-align: middle;
+    font-size: 1.4em;
+}
+
+div.totalprice{
+    /*float: right;*/
+    width: 80%;
+    display: block;
+    text-align: right;
+    margin: 40px 0;
+}
+
+div.check{
+    margin-top: 50px;
+}
+
+button.check{
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button.check:hover{
+     background-color: #000063;
+     transition: .2s ease;
+ }
+
+button.check:active{
+    background-color: #000063;
+    color: #8d8d8d;
+    border: none;
+}
+
+
+@media (max-width:700px) {
+
+    div.cartall{
+        width:100%;
+        margin: 10px 4px;
+    }
+
+    div.cartone{
+        margin: 10px 0;
+    }
+
+   div.cartimg{
+       width:16%;
+   }
+
+    p.add{
+        font-size: 0.8em;
+    }
+
+    div.cartnumberadd{
+        padding:0;
+        margin:0;
+        font-size: 1em;
+    }
+
+    .cartnumberadd img{
+        width:14px;
+        display: inline;
+        vertical-align: middle;
+        margin:0;
+        padding:0;
+    }
+
+    .cartnumberadd img:active{
+        border: solid 2px #6c6c71;
+        border-radius: 50%;
+    }
+
+    .cartdiscp p{
+        font-size: 0.6em;
+    }
+
+    div.totalprice{
+        margin:20px 0;
+    }
+
+    div.check{
+        margin-top:20px;
+    }
+
+}
+

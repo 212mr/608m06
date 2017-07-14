@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="css/theme.css"/>
+    <link type="text/css" rel="stylesheet" href="css/cartpay.css"/>
+
+    <link rel="icon" type="image/gif" href="image/b_logo_black1.png"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-compat-git.js"></script>
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/addcart.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="intro">
+
+        <!--<img id="round-b-logo" align="center"  src="image/dots_smallB_white.png" alt="0logo"/>-->
+    </div>
+    <div class="menu">
+        <div class="logo" id="top" align="center">
+            <img id="round-b-logo" align="center"  src="image/dots_smallB_white.png" alt="0logo"/>
+            <img id="bos-big-logo" src="image/bos_logo_white1.png" alt="BoSwhite"/>
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="productall.html">Products</a></li>
+            <li><a href="cart.html">My Account</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <br>
+
+</header>
+
+<div class="content" align="center">
+    <div class="center" align="center">
+    <p class="confirmation">
+        Dear customer, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ab, ipsa explicabo tempore, ea vero
+        quae sequi dignissimos adipisci, sapiente eos at distinctio, architecto nemo quam. Nulla dolorem cumque
+        architecto magni praesentium unde sequi omnis, nisi ducimus illo eligendi saepe harum numquam aut vel
+        laudantium, reiciendis necessitatibus ipsum fuga non.
+
+        Nam autem, vel consectetur dolore repellat ullam.
+    </p>
+
+    <div class="cartall" align="center">
+        <div class="cartone">
+            <div class="cartimg">
+                <img src="image/test1.jpg" alt="product1">
+            </div>
+            <div class="cartdiscp">
+                <p>Flower One $100/ea</p>
+            </div>
+            <div class="cartnumberadd" align="center">
+                <img src="image/minusicon.png" class="minus" alt="minus" onclick="addCart()">
+                <p id="add99"></p>
+                <img src="image/addicon.png" class="plus" alt="plus">
+            </div>
+            <div class="cartprice" align="center">
+                <p>$100.00</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="cartone">
+            <div class="cartimg">
+                <img src="image/test1.jpg" alt="product1">
+            </div>
+            <div class="cartdiscp">
+                <p>Flower One $100/ea</p>
+            </div>
+            <div class="cartnumberadd" align="center">
+                <img src="image/minusicon.png" class="minus" alt="minus">
+                <p class="add">1</p>
+                <img src="image/addicon.png" class="plus" alt="plus">
+            </div>
+            <div class="cartprice" align="center">
+                <p>$100.00</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="cartone">
+            <div class="cartimg">
+                <img src="image/test1.jpg" alt="product1">
+            </div>
+            <div class="cartdiscp">
+                <p>Flower One $100/ea</p>
+            </div>
+            <div class="cartnumberadd" align="center">
+                <img src="image/minusicon.png" class="minus" alt="minus">
+                <p class="add">1</p>
+                <img src="image/addicon.png" class="plus" alt="plus">
+            </div>
+            <div class="cartprice" align="center">
+                <p>$100.00</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="cartone">
+            <div class="cartimg">
+                <img src="image/upslogo1.png" alt="product1">
+            </div>
+            <div class="cartdiscp">
+                <p>Free Delivery $0.00</p>
+
+            </div>
+            <div class="cartnumberadd" align="center">
+                <img src="image/minusicon.png" class="minus" alt="minus">
+                <p class="add">1</p>
+                <img src="image/addicon.png" class="plus" alt="plus">
+            </div>
+            <div class="cartprice" align="center">
+                <p>$0.00</p>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="totalprice">
+            <h3>TOTAL: $300.00</h3>
+        </div>
+
+        <div class="check">
+            <button class="check">
+                CHECK OUT
+            </button>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <hr>
+
+    <div class="footer-big" align="center">
+        <div class="four-one" align="left">
+            <ul>
+                <li class="textbold">ABOUT</li>
+                <li>Press</li>
+                <li>Gallery/Video</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="four-one" align="left">
+            <ul>
+                <li class="textbold">SERVICE</li>
+                <li>Events</li>
+                <li>Weddings</li>
+                <li>Corporate Gifts</li>
+                <li>Gift Cards</li>
+            </ul>
+        </div>
+        <div class="four-one" align="left">
+            <ul>
+                <li class="textbold">WORK WITH US</li>
+                <li>Jobs</li>
+                <li>Florists</li>
+                <li>Affiliates</li>
+                <li>Site Map</li>
+            </ul>
+        </div>
+        <div class="four-one" align="left">
+            <ul>
+                <li class="textbold">HELP</li>
+                <li>Customer Service</li>
+                <li>Flower Care</li>
+                <li>FAQs</li>
+                <li>Privacy and Legal Terms</li>
+            </ul>
+        </div>
+
+        <div class="footer-small" align="center">
+            <img src="image/small-facebook-icon1.png" alt="facebook">
+            <img src="image/small-twitter-icon1.png" alt="twitter">
+            <img src="image/small-pinterest-icon1.png" alt="pinterest">
+            <img src="image/small-instagram-icon1.png" alt="instgrm">
+            <p>COPYRIGHT 2017, Mengru Zhang<br><br><br><br></p>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

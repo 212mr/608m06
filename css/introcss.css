@@ -1,0 +1,151 @@
+/*=-=-=-=-=-=-=-= Intro Index =-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-= Intro Index =-=-=-=-=-=-=-=-=*/
+
+img {
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffce1f;
+    font-weight: bold;
+    /*font-size: 1.4em;*/
+    transition: .6s ease;
+}
+
+
+/*div.intro{*/
+    /*width:100%;*/
+    /*height: 100%;*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*!*!*background-color: black;*!*!*/
+    /*!*!*background-position: center;*!*!*/
+    /*!*background-size: cover;*!*/
+    /*!*display: flex;*!*/
+    /*!*z-index: -2;*!*/
+/*}*/
+
+div.intro-circle{
+    z-index: 3;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:20%;
+    opacity: 0;
+}
+
+div.intro-circle:hover {
+    opacity:1;
+    transform:rotate(1330deg) scale(6,6);
+    transition-duration: 5s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+div.intrologo{
+    display: block;
+    position: absolute;
+    width: 44%;
+    top:44%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+div.intro-start{
+    z-index: 9;
+    position: absolute;
+    top:56%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+img.activated{
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+/*.introflowerone img{*/
+/*width:100%;*/
+/*z-index: 1;*/
+/*opacity: 0;*/
+/*}*/
+
+/*.introflowerone img:hover {*/
+/*opacity: 1;*/
+/*transition: 2.2s ease;*/
+/*}*/
+
+/*div.introflowertwo{*/
+    /*position: absolute;*/
+    /*width:52%;*/
+    /*top:0;*/
+    /*right:0;*/
+/*}*/
+
+/*.introflowertwo img{*/
+/*width:100%;*/
+/*}*/
+/*div.introflowertwo:hover{*/
+/*opacity: 1;*/
+/*transition: 2s ease;*/
+/*}*/
+
+
+
+/*div.introflowerthree{*/
+    /*position: fixed;*/
+    /*left:50px;*/
+    /*bottom: 0;*/
+    /*width:54%;*/
+/*}*/
+
+/*div.introflowerthree:hover{*/
+/*opacity:1;*/
+/*transition: 1s ease;*/
+
+/*:after{*/
+/*opacity:1;*/
+/*}*/
+/*}*/
+
+/*div.introflowerthree:hover:after{*/
+/*opacity:1;*/
+/*}*/
+
+
+
+/*.introflowerthree img{*/
+/*width:100%;*/
+/*}*/
+
+/****!*div.introflowerfour {*!*/
+    /*position: fixed;*/
+    /*bottom: -10px;*/
+    /*right: 0;*/
+    /*width: 34%;*/
+/*}*/
+
+/*}*/
+
+/*div.introflowerfour:hover{*/
+/*opacity:1;*/
+/*transition: 1.6s ease;*/
+/*}*/
+
+
+/*.introflowerfour img{*/
+/*width:100%;*/
+/*}*/
