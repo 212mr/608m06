@@ -199,6 +199,74 @@ div.four-one{
 
 
 
+/*div.product1-main{*/
+    /*background-color: green;*/
+    /*display: inline;*/
+    /*padding-top: 50px;*/
+    /*max-width:100%;*/
+/*}*/
+
+/*div.product1-view{*/
+    /*display: inline;*/
+    /*position: relative;*/
+    /*width:30%;*/
+    /*padding: 50px 60px;*/
+/*}*/
+
+/*.product1-view img{*/
+    /*width:100%;*/
+/*}*/
+
+/*div.product1-addtocart{*/
+    /*display: inline;*/
+    /*margin-top:60px;*/
+    /*!*position: absolute;*!*/
+    /*width: 40%;*/
+    /*vertical-align: middle;*/
+    /*background-color: red;*/
+    /*color: #000;*/
+/*}*/
+
+/*div.product1-description-p{*/
+    /*display: block;*/
+    /*width:80%;*/
+/*}*/
+
+/*div.add-to-cart{*/
+    /*background-color: yellow;*/
+    /*display: inline;*/
+    /*margin-top: 60px;*/
+
+/*}*/
+
+select{
+
+    width: 60px;
+    margin: 30px 10px 30px;
+    /*padding:10px 30px;*/
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+button.add{
+    /*font-size: 1.2em;*/
+    background-color: #ffc023;
+    line-height: 1.8em;
+    margin: 20px 30px;
+    padding:4px 20px;
+    border-radius: 8px;
+    border: none;
+    vertical-align: middle;
+}
+
+button.add:hover {
+    background-color: #fe9409;
+    transition: .8s ease;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
 
 @media (max-width:600px) {
 

@@ -28,6 +28,7 @@ header{
     height: 100px;
     padding:0;
 }
+
 div.logo {
     background-color: black;
     padding:0;
@@ -99,6 +100,7 @@ div.logo{
 
 
 div.center{
+    margin-top: 20px;
     max-width: 2000px;
     /*background-color: rgba(255, 186, 181, 0.7);*/
 }
@@ -242,7 +244,7 @@ li.textbold{
 
 .footer-small img{
     width: 26px;
-    margin: 40px;
+    margin: 30px;
 }
 
 
