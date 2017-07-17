@@ -1,3 +1,5 @@
+/*/background-color:rgba(129, 216, 208,1)*!*/
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: #ffc8c8;
+    color: rgba(129, 216, 208,1);
 }
 
 /*HEADER - - HEARDER - - */
@@ -30,7 +32,7 @@ header{
 }
 
 div.logo {
-    background-color: black;
+    background-color:black;
     padding:0;
     vertical-align: middle;
 }
@@ -42,7 +44,7 @@ div.intro{
 
 
 div.logo{
-    width:30%;
+    width:28%;
     float: left;
     /*background-color: red;*/
 }
@@ -50,10 +52,10 @@ div.logo{
     display: block;
     width: 100%;
     /*padding-right: 70px;*/
-    padding-left: 70px;
+    padding-left: 10%;
     padding-top: 10px;
-    margin-bottom:20px;
-    margin-top: 20px;
+    margin-bottom:16px;
+    margin-top: 10px;
 }
 
 
@@ -61,10 +63,11 @@ div.logo{
     display: none;
     z-index: 5;
     width:100%;
+    /*padding-left: 70px;*/
 }
 
 .logo, .intro, .menu {
-    padding: 10px;
+    padding: 0;
     background-color: black;
 }
 
@@ -84,7 +87,8 @@ div.logo{
 
 .menu ul {
     /*position: relative;*/
-    margin-top:60px;
+    margin-top:50px;
+    margin-right: 10%;
     float: right;
 }
 
@@ -139,12 +143,15 @@ div.center{
 /*CARD--CARD--CARD*/
 
 .card {
-    margin: 5% 4%;
+    margin: 3% 3%;
     position: relative;
     width: 24%;
     height: 100%;
     display: inline-block;
     vertical-align: middle;
+    /*background-color: rgba(255,190,180,.6);*/
+    /*background-color: #13bebe;*/
+    background-color: rgba(129, 216, 208,1);
 }
 
 .card > :first-child {
@@ -161,21 +168,40 @@ div.center{
     vertical-align: middle;
 }
 
+.card h3 {
+    left:0;
+    padding: 16px 0 6px 0;
+}
+
+.card p{
+    color: #8b8b8b;
+    left:0;
+    font-size: .8em;
+    line-height: 1.4em;
+    padding-bottom: 16px;
+}
+
+.card a:hover{
+    color: white;
+}
+
+
+
 .card img:hover{
-    border:none;
-    transition: .3s ease;
+border:none;
+transition: .6s ease;
 }
 
 .overlay {
     position: absolute;
-    bottom:0;
+    top:0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     overflow: hidden;
     width: 100%;
     height: 0;
-    transition: .3s ease;
+    transition: .6s ease;
     vertical-align: middle;
 }
 
@@ -184,38 +210,41 @@ div.center{
 }
 
 .card:hover .overlay {
-    height: 30%;
+    top:24%;
+    height: 26%;
 }
 
 .text {
     text-align: center;
-    white-space: nowrap;
-    color: white;
-    padding-bottom: 20px;
-    /*font-size: 1.2em;*/
     position: absolute;
-    overflow: hidden;
-    top: 66%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
 
+.text img{
+    width:50%;
+}
+
 /*BUTTON = = = button = = = BUTTON = = = button = = =*/
 button.more {
-    border: solid 1px black;
-    border-radius: 8px;
-    background-color: black;
-    color: white;
+    border: none;
+    border-radius: 12px;
+    /*background-color: black;*/
+    /*color: white;*/
     width: 22%;
     padding: 20px;
+    margin-bottom: 80px;
+    background-color: rgba(129, 216, 208,1);
+    color: black
+;
 }
 
 button.more:hover {
-    border: solid 1px black;
-    background-color: white;
+    background-color: rgba(129, 216, 208,.7);
     color: black;
-    transition: .8s ease;
+    transition: .3s ease;
 }
 
 
@@ -301,8 +330,9 @@ li.textbold{
     .logo img#round-b-logo {
         display:block;
         width:100%;
-        margin-top: -20px;
-        margin-bottom: 6px;
+        margin-left: 10%;
+        margin-top: -10px;
+        margin-bottom: 16px;
         vertical-align: middle;
         /*transition: all 5s ease;*/
     }
@@ -312,8 +342,9 @@ li.textbold{
     }
 
     .menu ul{
-        margin-top:0;
-        margin-bottom:0;
+        margin-top: 30px;
+        margin-right: 30px;
+        font-size: 1.4em;
 
     }
 
@@ -399,8 +430,12 @@ li.textbold{
 .toggle input {
     display:none;
 }
+
+.toggle-fav{
+    color: rgba(129, 216, 208,1);
+}
 .toggle-fav input:checked+label {
-    color:red;
+    color: #ff3f57;
 
 }
 

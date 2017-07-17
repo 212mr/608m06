@@ -4,8 +4,9 @@
 
 
 div.cartall{
+    display: block;
     /*background-color: yellow;*/
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     background-color: white;
     max-width: 1200px;
     border-radius: 12px;
@@ -15,24 +16,29 @@ div.cartall{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.cartall ol{
-    list-style: lower-roman;
-    display: inline;
+/*.cartall ol{*/
+    /*max-width:100%;*/
+    /*position: absolute;*/
+    /*list-style: decimal;*/
+    /*display: inline;*/
+    /*margin-top: 50px;*/
+    /*color: #ffc023;*/
+    /*!*top:20%;*!*/
+    /*!*left:20%;*!*/
+/*}*/
 
-}
+/*.cartall li{*/
+    /*display: inline;*/
+/*}*/
 
-.cartall li{
-    display: inline;
-    list-style: lower-roman;
-    margin-left: 30px;
-    margin-top: 260px;
-}
+
 
 .cartall p{
     font-family: 'Josefin Sans', sans-serif;
-    margin: 20px 10px;
+    margin: 40px 10px;
     padding-top:40px;
     width:80%;
+    line-height: 1.8em;
 }
 
 div.cartone{
@@ -57,9 +63,10 @@ div.cartimg{
 }
 
 div.cartdiscp{
-    width:24%;
+    width:22%;
     display: inline-block;
     vertical-align: middle;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 div.cartnumberadd{
@@ -90,6 +97,7 @@ div.cartprice{
     padding: 0;
     display: inline-block;
     vertical-align: middle;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .cartprice p{
@@ -130,16 +138,16 @@ button.check{
     /*width:150px;*/
     /*height:50px;*/
     border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: rgba(129, 216, 208,1);
+    color: black;
     border: none;
     padding: 16px 40px;
     margin-bottom: 60px;
 }
 
 button.check:hover{
-     background-color: #000063;
-     transition: .2s ease;
+     background-color: rgba(129, 216, 208,.7);;
+     transition: .3s ease;
  }
 
 button.check:active{
@@ -153,7 +161,7 @@ button.check:active{
 
     div.cartall{
         width:100%;
-        margin: 10px 4px;
+        margin: 10px 0;
     }
 
     div.cartone{

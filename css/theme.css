@@ -1,3 +1,7 @@
+h3, h4{
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .dual-box {
     color: black;
     margin:20px;
@@ -164,13 +168,17 @@ div.three{
     vertical-align: top;
 }
 
-.three h1{
+.three h1,
+.three-occasions h1{
+    vertical-align: top;
     font-family: 'Parisienne', cursive;
     font-size: 2.4em;
     line-height: 1.2em;
 }
 
-.three p{
+.three p,
+.three-occasions p{
+    vertical-align: top;
     font-family: 'Josefin Sans', sans-serif;
     /*font-size: 2em;*/
 }
@@ -178,6 +186,11 @@ div.three{
 .three img{
     width:20%;
 }
+
+.three-occasions img{
+    width: 80%;
+}
+
 
 div.three-one{
     padding:30px;
@@ -187,7 +200,11 @@ div.three-one{
     vertical-align: top;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
+    line-height: 1.6em;
 }
+
+
+
 
 div.four-one{
     padding:30px;
@@ -250,25 +267,25 @@ select{
 
 button.add{
     /*font-size: 1.2em;*/
-    background-color: #ffc023;
+    background-color:rgba(129, 216, 208,1);
     line-height: 1.8em;
     margin: 20px 30px;
-    padding:4px 20px;
+    padding:6px 20px;
     border-radius: 8px;
     border: none;
     vertical-align: middle;
 }
 
 button.add:hover {
-    background-color: #fe9409;
-    transition: .8s ease;
+    background-color:rgba(129, 216, 208,.7);
+    transition: .3s ease;
 }
 
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 
-@media (max-width:600px) {
+@media (max-width:700px) {
 
     div.three{
         display: block;
@@ -285,7 +302,7 @@ button.add:hover {
     }
 
     .view-window>img{
-        top:44%;
+        top:22%;
         left:50%;
         max-width:40%;
     }
@@ -298,9 +315,9 @@ button.add:hover {
     }
 
     .view-right {
-        top:72%;
+        top:66%;
         left:50%;
-        width:80%;
+        width:90%;
     }
 
     .dual-box .flex-parent {
